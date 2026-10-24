@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "config": "workflow.json",
+  "sourceFile": "source/original.txt",
+  "sourceHash": "c4339911528cba83d1a4e865fe3c0670a29dc9950d867179f912f453f84cdee8",
+  "title": "その物語、漫画にしよう。",
+  "createdAt": "2026-10-24T14:08:23.047Z",
+  "execution": "Codex with built-in image_gen",
+  "renderer": "Codex built-in image_gen",
+  "facePolicy": "maspi-permitted",
+  "coverage": "entire supplied source",
+  "deliverables": [
+    "reader",
+    "png",
+    "pdf",
+    "portable-archive"
+  ]
+}

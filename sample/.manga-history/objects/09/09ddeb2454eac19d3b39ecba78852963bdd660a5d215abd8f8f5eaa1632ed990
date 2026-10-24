@@ -1,0 +1,1 @@
+import fs from 'node:fs';const f='works/auto-c4339911528c/workflow.json';const w=JSON.parse(fs.readFileSync(f));for(const p of w.pages.flatMap(x=>x.panels)){if(p.id==='02-3')p.scene+=' 新しい開いたノートを机の中央に小さく見せる。';p.action=p.scene;p.production.moment=p.scene;}fs.writeFileSync(f,JSON.stringify(w,null,2)+'\n');

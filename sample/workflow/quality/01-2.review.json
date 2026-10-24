@@ -1,0 +1,56 @@
+{
+  "panel": "01-2",
+  "fingerprint": "4ec8ae90fda2d544f55ceb845387c46bc98784fefeaf2c5751d1f3f81b6cd040",
+  "observation": "縮小合成ページ、等倍合成ページ、CLIの200%コマPNGを実見。丸眼鏡、細い目、直線眉、角張る顎と穏やかな口を基準と照合。 右下PCと机上の原稿の輪郭を分離して読める。",
+  "views": {
+    "thumbnail": true,
+    "native": true,
+    "detail": true
+  },
+  "checks": {
+    "anatomy": {
+      "result": "pass",
+      "note": "肩・首・胴が自然につながる。両手は画面外で、指の観察は対象外。"
+    },
+    "contact": {
+      "result": "pass",
+      "note": "PCと開いた紙の机上配置に浮きはなく、人物の手の接触は画面外。"
+    },
+    "objects": {
+      "result": "pass",
+      "note": "右下PCと机上の原稿の輪郭を分離して読める。"
+    },
+    "faces": {
+      "result": "pass",
+      "note": "丸眼鏡、細い目、直線眉、角張る顎と穏やかな口を基準と照合。"
+    },
+    "linework": {
+      "result": "pass",
+      "note": "外形と内部線の強弱が明確。髪の束と衣服の折り目を識別でき、破綻を覆う粒状ノイズなし。背景にはスクリーントーンを用いる。"
+    },
+    "background": {
+      "result": "pass",
+      "note": "夕日を窓に残し、提案のバストアップと右上文字余白が両立。"
+    },
+    "continuity": {
+      "result": "pass",
+      "note": "ユイの問いにCodexとSkillで応じる。同じ黒ハイネックと白シャツ。"
+    },
+    "lettering": {
+      "result": "pass",
+      "note": "manga-generatorの英字を横書き一行に保つ。右上吹き出しと左顔は分離。"
+    }
+  },
+  "issues": [],
+  "faceIdentity": {
+    "b": {
+      "reference": "works/auto-c4339911528c/assets/characters.png",
+      "traits": [
+        "細い目と丸い細縁眼鏡を参照と照合し、可視の形を保持。",
+        "太くまっすぐな眉を参照と照合し、可視の形を保持。",
+        "角張った顎を参照と照合し、可視の形を保持。"
+      ],
+      "expression": "丸眼鏡、細い目、直線眉、角張る顎と穏やかな口を基準と照合。"
+    }
+  }
+}

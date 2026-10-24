@@ -1,0 +1,56 @@
+{
+  "panel": "02-2",
+  "fingerprint": "296feac12a7c6beb32625d4de8c6a8c2031e4882b9b443923e4059bebd26119b",
+  "observation": "縮小合成ページ、等倍合成ページ、CLIの200%コマPNGを実見。ボブと三角ピンに加え大きな丸目、短眉、柔らかい顎を保持。集中しつつ前向きな口。 PC背面と左下ノートが判別でき、右のキャプションはPCを隠さない。",
+  "views": {
+    "thumbnail": true,
+    "native": true,
+    "detail": true
+  },
+  "checks": {
+    "anatomy": {
+      "result": "pass",
+      "note": "ユイの首と肩、机へ下がる腕に破綻なし。手はPCで隠れる。"
+    },
+    "contact": {
+      "result": "pass",
+      "note": "PCとノートは机上にあり、ユイは画面の向こうへ座る。握りの観察は対象外。"
+    },
+    "objects": {
+      "result": "pass",
+      "note": "PC背面と左下ノートが判別でき、右のキャプションはPCを隠さない。"
+    },
+    "faces": {
+      "result": "pass",
+      "note": "ボブと三角ピンに加え大きな丸目、短眉、柔らかい顎を保持。集中しつつ前向きな口。"
+    },
+    "linework": {
+      "result": "pass",
+      "note": "外形と内部線の強弱が明確。髪の束と衣服の折り目を識別でき、破綻を覆う粒状ノイズなし。背景にはスクリーントーンを用いる。"
+    },
+    "background": {
+      "result": "pass",
+      "note": "夜の窓とライトで前コマと同じ時間帯を示す。"
+    },
+    "continuity": {
+      "result": "pass",
+      "note": "作画の次に実物の顔・手・読順と別担当レビューを点検する。"
+    },
+    "lettering": {
+      "result": "pass",
+      "note": "上寄りの発話→右下の独立レビュー説明。説明枠の右辺はコマ境界とそろうが全文欠けなし。"
+    }
+  },
+  "issues": [],
+  "faceIdentity": {
+    "a": {
+      "reference": "works/auto-c4339911528c/assets/characters.png",
+      "traits": [
+        "丸い大きな目と弧を描く上まぶたを参照と照合し、可視の形を保持。",
+        "短く細い眉を参照と照合し、可視の形を保持。",
+        "丸い頬と小さく柔らかい顎を参照と照合し、可視の形を保持。"
+      ],
+      "expression": "ボブと三角ピンに加え大きな丸目、短眉、柔らかい顎を保持。集中しつつ前向きな口。"
+    }
+  }
+}

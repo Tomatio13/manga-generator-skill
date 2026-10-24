@@ -1,0 +1,7 @@
+{
+  "request": "works/auto-c4339911528c/workflow/stage-reviews/requests/first-reading-c571a537af6fb2d0b35597f476fb84b39a308860dbb22614e39f22ab359610ce.json",
+  "inputs": [
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/workflow/storyboards-unnumbered/page-02.png"
+  ],
+  "instructions": "A real subagent first inspects ONLY these unnumbered images. Do not read the source, script, configuration or flow guides yet. Return {request,reviewer:{role:\"subagent\",task:\"actual task name\"},pages:[{page:\"01\",scan:\"Natural scan in sequence: image locations and quoted dialogue, including silent reactions\",observation:\"Specific proximity/acting evidence; ambiguity, skipped answers and unreadable text if present\"}]}. Do not infer expected panel IDs or correct your scan to match a plan. This is an observation, not a pass certificate."
+}

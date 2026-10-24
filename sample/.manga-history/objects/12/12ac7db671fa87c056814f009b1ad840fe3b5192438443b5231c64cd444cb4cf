@@ -1,0 +1,14 @@
+{
+  "stage": "lettering",
+  "target": "01",
+  "protocol": "two-phase-v1",
+  "images": [
+    {
+      "page": "01",
+      "file": "works/auto-c4339911528c/workflow/review/page-01.png",
+      "hash": "89a9ac4b96b77a19cb46803122fcbbd5096728b8007d32d8dd9a7f05da4def2a"
+    }
+  ],
+  "contextHash": "2a4e31087897883b2b014e542ecb849b6e045ff467a6724336cdc0803a6b0b27",
+  "fingerprint": "812b41888106cedea1962dd212d0fc878a16ca1b27f64ae8a01aa63c2ef97b05"
+}

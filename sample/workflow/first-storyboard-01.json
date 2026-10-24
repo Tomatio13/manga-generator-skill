@@ -1,0 +1,14 @@
+{
+  "request": "works/auto-c4339911528c/workflow/stage-reviews/requests/first-reading-fe46807596748f3ea7b3edda13b950f68b31fc0a351b25acf1b5a3f10542ff46.json",
+  "reviewer": {
+    "role": "subagent",
+    "task": "/root/independent_review"
+  },
+  "pages": [
+    {
+      "page": "01",
+      "scan": "上段右の『物語は書けた。でも、漫画にするには？』を読み左のa顔予定を見る。中段上部の横書き『Codexでmanga-generatorを使おう。原作から一緒に組み立てるよ。』から下のb顔予定へ進む。下段右『まず全文を読み、台詞と見せ場を設計する。』からb予定顔を経て左『大事な気持ちを残すんだね。』とa予定顔へ移る。",
+      "observation": "脚本を既に知る制限はあるが、今回の初読は番号・原作を開かず指定画像だけを見た。横書きの製品名は分断なく読める。各段の枠と大きい余白で上から下へ進み、下段は右の説明と左の応答が一組になる。灰色予定顔であり表情や机上の原稿などの実物はまだ見られない。"
+    }
+  ]
+}

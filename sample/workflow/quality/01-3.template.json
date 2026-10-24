@@ -1,0 +1,65 @@
+{
+  "panel": "01-3",
+  "fingerprint": "d98ad3d1a6146a9f414ae3a146fb692938494b26ee38dbf81e26eb334c4ea926",
+  "observation": "",
+  "views": {
+    "thumbnail": false,
+    "native": false,
+    "detail": false
+  },
+  "checks": {
+    "anatomy": {
+      "result": "fail",
+      "note": ""
+    },
+    "contact": {
+      "result": "fail",
+      "note": ""
+    },
+    "objects": {
+      "result": "fail",
+      "note": ""
+    },
+    "faces": {
+      "result": "fail",
+      "note": ""
+    },
+    "linework": {
+      "result": "fail",
+      "note": ""
+    },
+    "background": {
+      "result": "fail",
+      "note": ""
+    },
+    "continuity": {
+      "result": "fail",
+      "note": ""
+    },
+    "lettering": {
+      "result": "fail",
+      "note": ""
+    }
+  },
+  "issues": [],
+  "faceIdentity": {
+    "b": {
+      "reference": "works/auto-c4339911528c/assets/characters.png",
+      "traits": [
+        "",
+        "",
+        ""
+      ],
+      "expression": ""
+    },
+    "a": {
+      "reference": "works/auto-c4339911528c/assets/characters.png",
+      "traits": [
+        "",
+        "",
+        ""
+      ],
+      "expression": ""
+    }
+  }
+}

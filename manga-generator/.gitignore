@@ -1,0 +1,9 @@
+# Local shared environments and machine-specific caches
+.runtime/
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.cache/
+engine/tmp/

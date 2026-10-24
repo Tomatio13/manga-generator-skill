@@ -1,0 +1,56 @@
+{
+  "panel": "01-1",
+  "fingerprint": "7e088711c42afcd0917ac701d1eb48b3283e05166ed2cc497106920eee3fc1ef",
+  "observation": "",
+  "views": {
+    "thumbnail": false,
+    "native": false,
+    "detail": false
+  },
+  "checks": {
+    "anatomy": {
+      "result": "fail",
+      "note": ""
+    },
+    "contact": {
+      "result": "fail",
+      "note": ""
+    },
+    "objects": {
+      "result": "fail",
+      "note": ""
+    },
+    "faces": {
+      "result": "fail",
+      "note": ""
+    },
+    "linework": {
+      "result": "fail",
+      "note": ""
+    },
+    "background": {
+      "result": "fail",
+      "note": ""
+    },
+    "continuity": {
+      "result": "fail",
+      "note": ""
+    },
+    "lettering": {
+      "result": "fail",
+      "note": ""
+    }
+  },
+  "issues": [],
+  "faceIdentity": {
+    "a": {
+      "reference": "works/auto-c4339911528c/assets/characters.png",
+      "traits": [
+        "",
+        "",
+        ""
+      ],
+      "expression": ""
+    }
+  }
+}

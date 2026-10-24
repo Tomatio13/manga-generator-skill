@@ -1,0 +1,3 @@
+interface:
+  display_name: "manga-generator"
+  short_description: "Codexで原作から漫画・PDF・再現パッケージまで制作する"

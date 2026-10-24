@@ -1,0 +1,50 @@
+{
+  "request": "works/auto-c4339911528c/workflow/stage-reviews/requests/lettering-02-f4a32fee237cd47498b3087bc6cad0a4fc58210c2ebf3add624e05aba0bba4fe.json",
+  "inputs": [
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/source/original.txt",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/workflow/storyboards/page-01.svg",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/assets/characters.png",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/workflow/storyboards/page-02.svg",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/assets/panels/02-1.png",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/assets/panels/02-2.png",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/assets/panels/02-3.png",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/workflow/review/page-02.png",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/workflow/stage-reviews/first-reading/lettering-02-2a8650f03475e589ec9c0c6cfc3aaad03598cff9475c6bccfb0494fa215422fe.json",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/workflow/review/page-01.png",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/assets/panels/01-1.png",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/assets/panels/01-2.png",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/assets/panels/01-3.png"
+  ],
+  "requiredTransitions": [
+    {
+      "from": "01-3",
+      "to": "02-1"
+    },
+    {
+      "from": "02-1",
+      "to": "02-2"
+    },
+    {
+      "from": "02-2",
+      "to": "02-3"
+    }
+  ],
+  "firstReading": {
+    "fingerprint": "2a8650f03475e589ec9c0c6cfc3aaad03598cff9475c6bccfb0494fa215422fe",
+    "reviewer": {
+      "role": "subagent",
+      "task": "/root/artwork_review"
+    },
+    "pages": [
+      {
+        "page": "02",
+        "scan": "上段右の縦書き「基準画像から作画。文字は後で組む。」から左の眼鏡の男性と文字なしコマ枠のモニターへ進んだ。中段は右寄りの縦書き「顔や手、読順も実物を見て直す！」、左の女性、右下の「別担当の独立レビューで、気づいた不備を修正。」を読んだ。下段右上の「私の物語が、漫画になった！」から右の喜ぶ女性、左上の「読書画面・PNG・PDFと、再現パッケージまで。」と左の男性へ進む。中央上の再現範囲の注意文を読み、中央の漫画を映すPCと開いたノートを見て、左下の「次の物語も、描き出そう。」で終えた。",
+        "observation": "既に作画レビューで物語を知る制約があるが、この段階は番号なし合成PNGだけを実読した。上段から中段は窓の星と点灯ライトが夜の同じ作業をつなぐ。中段の独立レビュー枠は発話より十分下で別の説明と分かる。下段会話は同じ上端の右→左で、中央の注意枠はその下にあるため台詞を飛ばさず読めた。PNG・PDFは横書きで単語の分断なし。顔・口・中央のPCとノートは文字に隠れず、再現範囲の注意文も全て読める。左下の次作の枠は下辺と近いが本文欠けは見られず、開いたノートの中央を覆っていない。"
+      }
+    ]
+  },
+  "firstReadingHash": "dfb19ec8461d9b466dd0c0525bc155fa20dfe358e305f1f8a3f55df1536a3cd4",
+  "comparisonInstructions": "Compare the immutable natural scan above with the intended script and order. Keep the original scan unchanged. Return readingReview.firstReadingHash and readingReview.comparison explaining agreements, skips and ambiguities; unresolved differences require changes-requested.",
+  "unavailableBoundaryImages": [],
+  "instructions": "A real subagent must read source/script and inspect applicable images. First inspect unnumbered images without flow overlays; record the order a reader would naturally predict, considering proximity clusters, whole conversation rows, faces and gestures. Then compare with intended order. Inspect scene/time/place/flashback and action/object transitions, including adjacent pages. Required transitions include incoming and outgoing boundary context. Every required pair must be recorded exactly once; zero pairs use []. Some adjacent actual images may not exist yet: inspect the provided plan, explicitly record that limitation, and never certify an unavailable image. Creating those images later stales this review. Do not pass unresolved skips or abrupt unexplained changes. Return request, reviewer:{role:subagent,task:actual task name}, status:pass or changes-requested, observations:[specific observations], issues:[{problem,location,resolved:false}]. For storyboard/lettering/final pass include readingReview:{withoutGuides:true,predictedOrder:[{panel:panelId,dialogue:[1,2,...]}] for EVERY target panel, observations:[specific natural-scan and proximity evidence], transitions:[{from:panelId,to:panelId,observation:actual continuity evidence}]}. Empty dialogue panels use []. This records actual inspection, not a blinded experiment or an automatic readability guarantee. Do not claim inspection from command success."
+}

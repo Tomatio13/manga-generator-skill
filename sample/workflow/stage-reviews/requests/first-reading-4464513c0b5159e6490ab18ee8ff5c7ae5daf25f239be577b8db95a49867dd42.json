@@ -1,0 +1,19 @@
+{
+  "stage": "final",
+  "target": "all",
+  "protocol": "two-phase-v1",
+  "images": [
+    {
+      "page": "01",
+      "file": "works/auto-c4339911528c/output/page-01.png",
+      "hash": "89a9ac4b96b77a19cb46803122fcbbd5096728b8007d32d8dd9a7f05da4def2a"
+    },
+    {
+      "page": "02",
+      "file": "works/auto-c4339911528c/output/page-02.png",
+      "hash": "149937efb37c22d85895b4c37eaad4566deaa7c69acf4af359814c4eaebc34a7"
+    }
+  ],
+  "contextHash": "a810fce572ad670a1497199c37b017a123ef1469542147dbf880ed4be99ef8f1",
+  "fingerprint": "4464513c0b5159e6490ab18ee8ff5c7ae5daf25f239be577b8db95a49867dd42"
+}

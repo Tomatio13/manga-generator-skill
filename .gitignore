@@ -1,0 +1,15 @@
+# Local shared environments and machine-specific caches
+.runtime/
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.cache/
+manga-generator/engine/tmp/
+
+# Original work layouts retained only as local migration backups
+.manga-migration-backups/
+
+# Engine development history is local, not part of the distributed Skill
+manga-generator/engine/.manga-history/

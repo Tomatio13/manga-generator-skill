@@ -1,0 +1,1 @@
+import fs from 'node:fs';const f='works/auto-c4339911528c/workflow.json';const w=JSON.parse(fs.readFileSync(f));for(const p of w.pages.flatMap(x=>x.panels))for(const r of p.protected||[]){r[2]=Math.min(r[2],p.rect[0]+p.rect[2]-r[0]);r[3]=Math.min(r[3],p.rect[1]+p.rect[3]-r[1]);}fs.writeFileSync(f,JSON.stringify(w,null,2)+'\n');

@@ -1,0 +1,19 @@
+{
+  "pdfHash": "19ee58c1456774fc022d3623fddd1e70c293be2f50a196763f685781b1ac27e5",
+  "pages": [
+    {
+      "id": "01",
+      "inspected": true,
+      "render": "works/auto-c4339911528c/workflow/pdf-review/page-1.png",
+      "observation": "Poppler全ページ画像を実見。上段の問い、中段の英語Skill名、下段右から左の設計と応答が全て読める。顔と手、枠線、下端ページ番号1が欠けず安全な余白内にある。",
+      "renderHash": "0b9797abd9baef010a4bb93d1dc45b39edec7c1d7d1d62965850ac8d74ce7676"
+    },
+    {
+      "id": "02",
+      "inspected": true,
+      "render": "works/auto-c4339911528c/workflow/pdf-review/page-2.png",
+      "observation": "Poppler画像で夜の窓とライト、作画・実物点検・独立レビュー、完成と再現限定・次作の全文章を実読。中央PCとノート、二人の顔、コマ端と番号2は欠けなし。右中段の説明枠はコマ右端とそろうが文字は内側に収まる。",
+      "renderHash": "f3a7ccc9ee8ddea4d422cc28a01d12d92d00441f822a27e8cbd5d07322bc0b06"
+    }
+  ]
+}

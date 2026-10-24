@@ -1,0 +1,10 @@
+{
+  "fingerprint": "b14198f03237fffe63a29c3b18f209a13635341ddfafb8de5ba8e84c7895aa59",
+  "checks": [
+    "speakers",
+    "faces",
+    "order",
+    "continuity"
+  ],
+  "reviewedAt": "2026-10-24T14:25:38.200Z"
+}

@@ -1,0 +1,1 @@
+import fs from 'node:fs';const f='works/auto-c4339911528c/workflow.json';const w=JSON.parse(fs.readFileSync(f));const p=w.pages[1].panels[2];Object.assign(p.dialogue[1],{textDirection:'horizontal',textColumns:['読書画面・PNG・PDFと、','再現パッケージまで。'],x:30,dy:18});p.dialogue[3].dy=410;fs.writeFileSync(f,JSON.stringify(w,null,2)+'\n');

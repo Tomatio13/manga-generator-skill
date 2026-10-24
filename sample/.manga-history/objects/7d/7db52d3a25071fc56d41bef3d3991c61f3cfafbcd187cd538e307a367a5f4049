@@ -1,0 +1,56 @@
+{
+  "panel": "02-1",
+  "fingerprint": "a05d234e054e7efb598cbe35911663a68cae481a352f66c68231a149f9116ecf",
+  "observation": "縮小合成ページ、等倍合成ページ、CLIの200%コマPNGを実見。丸眼鏡、太い直線眉、角張った顎が同一。穏やかな解説の表情。 左下のモニターに文字なしコマ枠があり作画工程を示す。",
+  "views": {
+    "thumbnail": true,
+    "native": true,
+    "detail": true
+  },
+  "checks": {
+    "anatomy": {
+      "result": "pass",
+      "note": "レンの首と肩は自然。手はモニターの下で不可視。"
+    },
+    "contact": {
+      "result": "pass",
+      "note": "モニターは机上の前景としてレンより手前。手との接触は描かれていない。"
+    },
+    "objects": {
+      "result": "pass",
+      "note": "左下のモニターに文字なしコマ枠があり作画工程を示す。"
+    },
+    "faces": {
+      "result": "pass",
+      "note": "丸眼鏡、太い直線眉、角張った顎が同一。穏やかな解説の表情。"
+    },
+    "linework": {
+      "result": "pass",
+      "note": "外形と内部線の強弱が明確。髪の束と衣服の折り目を識別でき、破綻を覆う粒状ノイズなし。背景にはスクリーントーンを用いる。"
+    },
+    "background": {
+      "result": "pass",
+      "note": "夜空とライトを明示し、前ページから作業時間が経ったと読める。"
+    },
+    "continuity": {
+      "result": "pass",
+      "note": "設計の次に基準画像と作画、文字を別に組む説明へ進む。服の色分け継続。"
+    },
+    "lettering": {
+      "result": "pass",
+      "note": "右の縦書きは全て読め、顔・モニターにかからず尾がレンへ向く。"
+    }
+  },
+  "issues": [],
+  "faceIdentity": {
+    "b": {
+      "reference": "works/auto-c4339911528c/assets/characters.png",
+      "traits": [
+        "細い目と丸い細縁眼鏡を参照と照合し、可視の形を保持。",
+        "太くまっすぐな眉を参照と照合し、可視の形を保持。",
+        "角張った顎を参照と照合し、可視の形を保持。"
+      ],
+      "expression": "丸眼鏡、太い直線眉、角張った顎が同一。穏やかな解説の表情。"
+    }
+  }
+}

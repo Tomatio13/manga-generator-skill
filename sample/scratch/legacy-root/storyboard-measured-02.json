@@ -1,0 +1,47 @@
+{
+  "request": "works/auto-c4339911528c/workflow/stage-reviews/requests/storyboard-02-df42cefbba884dc9be9b5e3d3cdf97cb3751e3516495e5983d4370a4c22e0ed5.json",
+  "inputs": [
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/source/original.txt",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/workflow/storyboards/page-01.svg",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/workflow/storyboards-unnumbered/page-01.svg",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/assets/characters.png",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/workflow/storyboards/page-02.svg",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/workflow/storyboards-unnumbered/page-02.svg",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/workflow/reading-flow/page-02.svg",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/workflow/reading-flow/page-02.json",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/workflow/stage-reviews/first-reading/storyboard-02-c571a537af6fb2d0b35597f476fb84b39a308860dbb22614e39f22ab359610ce.json",
+    "/home/masato/Agentic/manga-generator-skill/production/skill-introduction/works/auto-c4339911528c/workflow/storyboards-unnumbered/page-02.png"
+  ],
+  "requiredTransitions": [
+    {
+      "from": "01-3",
+      "to": "02-1"
+    },
+    {
+      "from": "02-1",
+      "to": "02-2"
+    },
+    {
+      "from": "02-2",
+      "to": "02-3"
+    }
+  ],
+  "firstReading": {
+    "fingerprint": "c571a537af6fb2d0b35597f476fb84b39a308860dbb22614e39f22ab359610ce",
+    "reviewer": {
+      "role": "subagent",
+      "task": "/root/independent_review"
+    },
+    "pages": [
+      {
+        "page": "02",
+        "scan": "上段右の『基準画像から作画。文字は後で組む。』から左のb予定顔へ進む。中段中央寄り右の『顔や手、読順も実物を見て直す！』から左のa予定顔へ、次に右下の独立レビューのキャプションへ。下段は右上の『私の物語が、漫画になった！』、左上の『読書画面・PNG・PDFと、再現パッケージまで。』、中央下の採用素材からの再現と同一画像を保証しない説明、最後に左下の『次の物語も、描き出そう。』の順に読んだ。",
+        "observation": "下段の二つの発話は同じ段の右→左にあり、中央の注意文は下がっているため会話の後へ読めた。次作のキャプションは最下部に分かれ、説明から余韻へ閉じる。注意文の全行が読め、旧版の下端への接近はなくなった。中段右下の枠は右のコマ線に接しているが文字は切れていない。ネーム画像のみを新たに実見。脚本を知る制限を持つ初読で、灰色の顔ガイドは演技の検品ではない。"
+      }
+    ]
+  },
+  "firstReadingHash": "38bf7d8876a993649346e0a21d672827ec591a17cb96239930887f88f72aab6b",
+  "comparisonInstructions": "Compare the immutable natural scan above with the intended script and order. Keep the original scan unchanged. Return readingReview.firstReadingHash and readingReview.comparison explaining agreements, skips and ambiguities; unresolved differences require changes-requested.",
+  "unavailableBoundaryImages": [],
+  "instructions": "A real subagent must read source/script and inspect applicable images. First inspect unnumbered images without flow overlays; record the order a reader would naturally predict, considering proximity clusters, whole conversation rows, faces and gestures. Then compare with intended order. Inspect scene/time/place/flashback and action/object transitions, including adjacent pages. Required transitions include incoming and outgoing boundary context. Every required pair must be recorded exactly once; zero pairs use []. Some adjacent actual images may not exist yet: inspect the provided plan, explicitly record that limitation, and never certify an unavailable image. Creating those images later stales this review. Do not pass unresolved skips or abrupt unexplained changes. Return request, reviewer:{role:subagent,task:actual task name}, status:pass or changes-requested, observations:[specific observations], issues:[{problem,location,resolved:false}]. For storyboard/lettering/final pass include readingReview:{withoutGuides:true,predictedOrder:[{panel:panelId,dialogue:[1,2,...]}] for EVERY target panel, observations:[specific natural-scan and proximity evidence], transitions:[{from:panelId,to:panelId,observation:actual continuity evidence}]}. Empty dialogue panels use []. This records actual inspection, not a blinded experiment or an automatic readability guarantee. Do not claim inspection from command success."
+}

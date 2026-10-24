@@ -1,0 +1,368 @@
+{
+  "base": {
+    "stage": "artwork",
+    "target": "02-2",
+    "sourceFile": "works/auto-c4339911528c/source/original.txt",
+    "script": {
+      "title": "その物語、漫画にしよう。",
+      "cast": {
+        "a": {
+          "name": "ユイ",
+          "description": "成人女性の作者。短い黒ボブ、本人の左こめかみに三角ヘアピン。淡色スウェット。",
+          "faceDesign": {
+            "traits": [
+              "丸い大きな目と弧を描く上まぶた",
+              "短く細い眉",
+              "丸い頬と小さく柔らかい顎"
+            ],
+            "reference": "works/auto-c4339911528c/assets/characters.png",
+            "settingBasis": "紹介用書き下ろし原作に外見指定なし。漫画用創作。assets/characters.png で基準化。"
+          }
+        },
+        "b": {
+          "name": "レン",
+          "description": "成人男性の制作案内役。後ろへ流した短い明るい髪、丸眼鏡。黒ハイネックに白シャツ。",
+          "faceDesign": {
+            "traits": [
+              "細い目と丸い細縁眼鏡",
+              "太くまっすぐな眉",
+              "角張った顎"
+            ],
+            "reference": "works/auto-c4339911528c/assets/characters.png",
+            "settingBasis": "紹介用書き下ろし原作に外見指定なし。漫画用創作。assets/characters.png で基準化。"
+          }
+        },
+        "narration": {
+          "kind": "caption",
+          "name": "地の文"
+        }
+      },
+      "style": "Monochrome hand-inked manga, varied line weight, restrained expression, sparse backgrounds, no photorealism or surface microtexture.",
+      "sections": {
+        "desk": {
+          "summary": "夕方、原作を漫画へ組み立てる",
+          "location": "作者の作業机。窓、ノートPC、原稿紙。夕方の空。",
+          "costumes": {
+            "a": "淡色クルーネックスウェット",
+            "b": "黒いハイネックと白い開襟シャツ"
+          },
+          "objects": {
+            "notebook": "机上の開いたノート",
+            "laptop": "机上のノートPC"
+          }
+        },
+        "night": {
+          "summary": "作画・検品を経て完成",
+          "location": "同じ机と窓。夜空とデスクライトが時間の経過を示す。",
+          "costumes": {
+            "a": "同じ淡色スウェット",
+            "b": "同じ黒ハイネックと白シャツ"
+          },
+          "objects": {
+            "notebook": "開いたノート",
+            "laptop": "完成ページを表示するノートPC"
+          }
+        }
+      },
+      "pages": [
+        {
+          "id": "02",
+          "section": "night",
+          "purpose": "作画と独立検品を経た完成と、次の創作への意欲",
+          "expectation": "ユイが次の物語へ進む余韻",
+          "panels": [
+            {
+              "id": "02-1",
+              "order": 1,
+              "rect": [
+                24,
+                24,
+                976,
+                430
+              ],
+              "section": "night",
+              "role": "始動",
+              "beat": "基準画像から作画。文字は後で組む。",
+              "scene": "夜の同じ机。左寄りのレンが文字なしコマ枠を表示したモニターを見る。手は画面外。右半分は白余白。窓の夜空とライトが時間経過を示す。",
+              "action": "夜の同じ机。左寄りのレンが文字なしコマ枠を表示したモニターを見る。手は画面外。右半分は白余白。窓の夜空とライトが時間経過を示す。",
+              "emotion": "好奇心と集中",
+              "camera": "バストアップ",
+              "state": {
+                "time": "夜"
+              },
+              "production": {
+                "moment": "夜の同じ机。左寄りのレンが文字なしコマ枠を表示したモニターを見る。手は画面外。右半分は白余白。窓の夜空とライトが時間経過を示す。",
+                "before": "直前の説明や作業を受ける",
+                "after": "次の工程へ進む",
+                "hands": {
+                  "b": {
+                    "left": "空手、画面外または机で隠れる",
+                    "right": "空手、画面外または机で隠れる"
+                  }
+                },
+                "props": []
+              },
+              "speakers": {
+                "b": {
+                  "face": [
+                    282,
+                    109,
+                    189,
+                    184
+                  ],
+                  "anchor": [
+                    340,
+                    244
+                  ]
+                }
+              },
+              "dialogue": [
+                {
+                  "speaker": "b",
+                  "text": "基準画像から作画。文字は後で組む。",
+                  "side": "right",
+                  "x": 700,
+                  "dy": 18,
+                  "capacity": 7
+                }
+              ],
+              "protected": [
+                [
+                  24,
+                  284,
+                  230,
+                  168
+                ]
+              ]
+            },
+            {
+              "id": "02-2",
+              "order": 2,
+              "rect": [
+                24,
+                478,
+                976,
+                430
+              ],
+              "section": "night",
+              "role": "始動",
+              "beat": "顔や手、読順も実物を見て直す！",
+              "scene": "夜の同じ机。左寄りのユイがノートPCの画面を見ながら点検について話す。手はPCに隠れる。右半分は文字領域。",
+              "action": "夜の同じ机。左寄りのユイがノートPCの画面を見ながら点検について話す。手はPCに隠れる。右半分は文字領域。",
+              "emotion": "好奇心と集中",
+              "camera": "バストアップ",
+              "state": {
+                "time": "夜"
+              },
+              "production": {
+                "moment": "夜の同じ机。左寄りのユイがノートPCの画面を見ながら点検について話す。手はPCに隠れる。右半分は文字領域。",
+                "before": "直前の説明や作業を受ける",
+                "after": "次の工程へ進む",
+                "hands": {
+                  "a": {
+                    "left": "空手、画面外または机で隠れる",
+                    "right": "空手、画面外または机で隠れる"
+                  }
+                },
+                "props": []
+              },
+              "speakers": {
+                "a": {
+                  "face": [
+                    258,
+                    581,
+                    181,
+                    156
+                  ],
+                  "anchor": [
+                    342,
+                    692
+                  ]
+                }
+              },
+              "dialogue": [
+                {
+                  "speaker": "a",
+                  "text": "顔や手、読順も実物を見て直す！",
+                  "side": "right",
+                  "x": 550,
+                  "dy": 18,
+                  "capacity": 7
+                },
+                {
+                  "speaker": "narration",
+                  "text": "別担当の独立レビューで、気づいた不備を修正。",
+                  "side": "left",
+                  "x": 730,
+                  "dy": 240,
+                  "capacity": 7,
+                  "textDirection": "horizontal",
+                  "textColumns": [
+                    "別担当の",
+                    "独立レビューで、",
+                    "気づいた不備を",
+                    "修正。"
+                  ]
+                }
+              ],
+              "protected": [
+                [
+                  308,
+                  770,
+                  383,
+                  138
+                ]
+              ]
+            },
+            {
+              "id": "02-3",
+              "order": 3,
+              "rect": [
+                24,
+                932,
+                976,
+                532
+              ],
+              "section": "night",
+              "role": "余韻",
+              "beat": "私の物語が、漫画になった！",
+              "scene": "夜の同じ机。ユイは右、レンは左。完成した漫画を表示したPCが机の中央、手前に新しい開いたノート。ユイが喜び、レンが微笑む。二人の手は机の向こう。",
+              "action": "夜の同じ机。ユイは右、レンは左。完成した漫画を表示したPCが机の中央、手前に新しい開いたノート。ユイが喜び、レンが微笑む。二人の手は机の向こう。",
+              "emotion": "達成感",
+              "camera": "机越しの二人のミディアムショット",
+              "state": {
+                "time": "夜"
+              },
+              "production": {
+                "moment": "夜の同じ机。ユイは右、レンは左。完成した漫画を表示したPCが机の中央、手前に新しい開いたノート。ユイが喜び、レンが微笑む。二人の手は机の向こう。",
+                "before": "直前の説明や作業を受ける",
+                "after": "次の物語をノートに書き始める",
+                "hands": {
+                  "a": {
+                    "left": "空手、画面外または机で隠れる",
+                    "right": "空手、画面外または机で隠れる"
+                  },
+                  "b": {
+                    "left": "空手、画面外または机で隠れる",
+                    "right": "空手、画面外または机で隠れる"
+                  }
+                },
+                "props": []
+              },
+              "speakers": {
+                "a": {
+                  "face": [
+                    748,
+                    1133,
+                    138,
+                    133
+                  ],
+                  "anchor": [
+                    820,
+                    1214
+                  ]
+                },
+                "b": {
+                  "face": [
+                    122,
+                    1091,
+                    150,
+                    134
+                  ],
+                  "anchor": [
+                    199,
+                    1179
+                  ]
+                }
+              },
+              "dialogue": [
+                {
+                  "speaker": "a",
+                  "text": "私の物語が、漫画になった！",
+                  "side": "right",
+                  "x": 650,
+                  "dy": 18,
+                  "capacity": 7,
+                  "textDirection": "horizontal",
+                  "textColumns": [
+                    "私の物語が、",
+                    "漫画になった！"
+                  ]
+                },
+                {
+                  "speaker": "b",
+                  "text": "読書画面・PNG・PDFと、再現パッケージまで。",
+                  "side": "left",
+                  "x": 30,
+                  "dy": 18,
+                  "capacity": 7,
+                  "textDirection": "horizontal",
+                  "textColumns": [
+                    "読書画面・PNG・PDFと、",
+                    "再現パッケージまで。"
+                  ]
+                },
+                {
+                  "speaker": "narration",
+                  "text": "採用素材から組版を再現。新規生成で同じ絵が出る保証ではありません。",
+                  "side": "right",
+                  "x": 320,
+                  "dy": 140,
+                  "capacity": 7,
+                  "textDirection": "horizontal",
+                  "textColumns": [
+                    "採用素材から組版を再現。",
+                    "新規生成で同じ絵が出る",
+                    "保証ではありません。"
+                  ]
+                },
+                {
+                  "speaker": "narration",
+                  "text": "次の物語も、描き出そう。",
+                  "side": "left",
+                  "x": 30,
+                  "dy": 420,
+                  "capacity": 7,
+                  "textDirection": "horizontal",
+                  "textColumns": [
+                    "次の物語も、",
+                    "描き出そう。"
+                  ]
+                }
+              ],
+              "protected": [
+                [
+                  383,
+                  1242,
+                  253,
+                  144
+                ],
+                [
+                  334,
+                  1386,
+                  351,
+                  52
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "files": [
+    "works/auto-c4339911528c/source/original.txt",
+    "works/auto-c4339911528c/assets/characters.png",
+    "works/auto-c4339911528c/workflow/storyboards/page-02.svg",
+    "works/auto-c4339911528c/assets/panels/02-2.png"
+  ],
+  "optionalFiles": [],
+  "configFile": "works/auto-c4339911528c/workflow.json",
+  "entries": {
+    "works/auto-c4339911528c/source/original.txt": "c4339911528cba83d1a4e865fe3c0670a29dc9950d867179f912f453f84cdee8",
+    "works/auto-c4339911528c/assets/characters.png": "7887183d6e7eb972a634c279ad59bbf73296cacfd7756ca6fcc79a0ebfa9dbf7",
+    "works/auto-c4339911528c/workflow/storyboards/page-02.svg": "c66eea0f0b597f885fc0c425ad5e3698ceeb6ec6c37185eba8e93876650442d7",
+    "works/auto-c4339911528c/assets/panels/02-2.png": "f3d1e041de79b4305c3217ee8ef78848c29b54323635dd51be73dbd1a3091d00"
+  },
+  "fingerprint": "c8fafbaa96a292025d54c9d9f05c439df417478d7a582a43fb21647b5d21c7bc"
+}

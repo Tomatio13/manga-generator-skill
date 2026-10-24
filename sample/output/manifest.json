@@ -1,0 +1,50 @@
+[
+  {
+    "id": "01",
+    "materials": [
+      {
+        "asset": "works/auto-c4339911528c/assets/panels/01-1.png",
+        "fingerprint": "fc1a24fce9abd85aa22d533d01797f928a43061f963eedd6f446b5a114aaea22",
+        "imageHash": "658e0ff8b0d00d2925dc7fa7884e235c73310cee860f830636607d1e91f4ddab",
+        "placementHash": "098d5f7432bfb54bf883d17428fdec784d63657513b39a86f3518200d1aba400"
+      },
+      {
+        "asset": "works/auto-c4339911528c/assets/panels/01-2.png",
+        "fingerprint": "f4296b4c7d8fccb3ae3c3a48e544f59076e36ff5ab7a33c8faed89655c942d30",
+        "imageHash": "a1e8d2398ff306f35b0738ecdea9171fb2fdb2634eb9dae29da68e39928efd3d",
+        "placementHash": "97d31da7a6a497da96f9d9a9d18971babcab1c0320f9af58837719bb2594434f"
+      },
+      {
+        "asset": "works/auto-c4339911528c/assets/panels/01-3.png",
+        "fingerprint": "25d639327d58dbaee660af867e60f48fe4474dd715a5ab1f82428f80915f4197",
+        "imageHash": "8c96c3908e149346c435e0850dddb3340988d742170e1ce9143b503e1937a8d6",
+        "placementHash": "3f4961cb5891c14bc91f6eb9451093f24d76613f4ddc5399f8dce630c7ef1152"
+      }
+    ],
+    "svgHash": "200eec650973dde780ce0b3bb74d28d55c2c4b92c18ab047954a247ebbb70071"
+  },
+  {
+    "id": "02",
+    "materials": [
+      {
+        "asset": "works/auto-c4339911528c/assets/panels/02-1.png",
+        "fingerprint": "1874111ec101d199073798c4f5a382e46745bcfc1e1245b83e101ab612848e06",
+        "imageHash": "91f3a33c024de8718dc850c4713444bbddf1d152cbc97cfd00702689e93719ed",
+        "placementHash": "a213d6de92a3deccea78f57639d2020e24bdf456b17218cb0603be54ca954e4c"
+      },
+      {
+        "asset": "works/auto-c4339911528c/assets/panels/02-2.png",
+        "fingerprint": "8a97038e9393392b977d7b532813e86b312f7bda0fcc43bb630c18a8d687f080",
+        "imageHash": "f3d1e041de79b4305c3217ee8ef78848c29b54323635dd51be73dbd1a3091d00",
+        "placementHash": "2c2a9e2097460c68efb027e70cf269b333569e58bcd01fbe7069115cf155a1b9"
+      },
+      {
+        "asset": "works/auto-c4339911528c/assets/panels/02-3.png",
+        "fingerprint": "06e1261644420929ddedb4699f38ee7265794f1bd677e76fb43d860164f25041",
+        "imageHash": "32390e4449bb2a1342b7eed01f5bcbbc76d1cf30ebf1d6d56006156f3e153b92",
+        "placementHash": "20a77864bd5eda5814fd3c7543370f2c2e61f4dfd114316db6483cbf43d23e41"
+      }
+    ],
+    "svgHash": "0989ffd1c5ce1fc30bd66e0d03e8ec628bf401347cca54b2e6788e9bbbc703d2"
+  }
+]

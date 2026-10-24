@@ -1,0 +1,1 @@
+import fs from 'node:fs';const f='works/auto-c4339911528c/workflow.json';const w=JSON.parse(fs.readFileSync(f));w.pages[1].panels[2].dialogue[3].dy=425;fs.writeFileSync(f,JSON.stringify(w,null,2)+'\n');

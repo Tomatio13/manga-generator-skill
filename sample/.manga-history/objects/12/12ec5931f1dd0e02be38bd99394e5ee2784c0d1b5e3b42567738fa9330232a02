@@ -1,0 +1,579 @@
+{
+  "base": {
+    "stage": "storyboard",
+    "target": "02",
+    "sourceFile": "works/auto-c4339911528c/source/original.txt",
+    "readingPolicy": "unnumbered-proximity-and-scene-transitions-v2",
+    "requiredTransitions": [
+      {
+        "from": "01-3",
+        "to": "02-1"
+      },
+      {
+        "from": "02-1",
+        "to": "02-2"
+      },
+      {
+        "from": "02-2",
+        "to": "02-3"
+      }
+    ],
+    "script": {
+      "title": "その物語、漫画にしよう。",
+      "cast": {
+        "a": {
+          "name": "ユイ",
+          "description": "成人女性の作者。短い黒ボブ、本人の左こめかみに三角ヘアピン。淡色スウェット。",
+          "faceDesign": {
+            "traits": [
+              "丸い大きな目と弧を描く上まぶた",
+              "短く細い眉",
+              "丸い頬と小さく柔らかい顎"
+            ],
+            "reference": "works/auto-c4339911528c/assets/characters.png",
+            "settingBasis": "紹介用書き下ろし原作に外見指定なし。漫画用創作。assets/characters.png で基準化。"
+          }
+        },
+        "b": {
+          "name": "レン",
+          "description": "成人男性の制作案内役。後ろへ流した短い明るい髪、丸眼鏡。黒ハイネックに白シャツ。",
+          "faceDesign": {
+            "traits": [
+              "細い目と丸い細縁眼鏡",
+              "太くまっすぐな眉",
+              "角張った顎"
+            ],
+            "reference": "works/auto-c4339911528c/assets/characters.png",
+            "settingBasis": "紹介用書き下ろし原作に外見指定なし。漫画用創作。assets/characters.png で基準化。"
+          }
+        },
+        "narration": {
+          "kind": "caption",
+          "name": "地の文"
+        }
+      },
+      "style": "Monochrome hand-inked manga, varied line weight, restrained expression, sparse backgrounds, no photorealism or surface microtexture.",
+      "sections": {
+        "desk": {
+          "summary": "夕方、原作を漫画へ組み立てる",
+          "location": "作者の作業机。窓、ノートPC、原稿紙。夕方の空。",
+          "costumes": {
+            "a": "淡色クルーネックスウェット",
+            "b": "黒いハイネックと白い開襟シャツ"
+          },
+          "objects": {
+            "notebook": "机上の開いたノート",
+            "laptop": "机上のノートPC"
+          }
+        },
+        "night": {
+          "summary": "作画・検品を経て完成",
+          "location": "同じ机と窓。夜空とデスクライトが時間の経過を示す。",
+          "costumes": {
+            "a": "同じ淡色スウェット",
+            "b": "同じ黒ハイネックと白シャツ"
+          },
+          "objects": {
+            "notebook": "開いたノート",
+            "laptop": "完成ページを表示するノートPC"
+          }
+        }
+      },
+      "pages": [
+        {
+          "id": "02",
+          "section": "night",
+          "purpose": "作画と独立検品を経た完成と、次の創作への意欲",
+          "expectation": "ユイが次の物語へ進む余韻",
+          "panels": [
+            {
+              "id": "02-1",
+              "order": 1,
+              "rect": [
+                24,
+                24,
+                976,
+                430
+              ],
+              "section": "night",
+              "role": "始動",
+              "beat": "基準画像から作画。文字は後で組む。",
+              "scene": "レンのバストアップ。顔中心(300,260)。背景に簡略なキャラ顔の線画や人の顔を描かない。左下に文字なしのコマ枠だけを描いたモニター。レンの手は画面外。右半分は白余白。",
+              "action": "レンのバストアップ。顔中心(300,260)。背景に簡略なキャラ顔の線画や人の顔を描かない。左下に文字なしのコマ枠だけを描いたモニター。レンの手は画面外。右半分は白余白。",
+              "emotion": "好奇心と集中",
+              "camera": "バストアップ",
+              "state": {
+                "time": "夜"
+              },
+              "production": {
+                "moment": "レンのバストアップ。顔中心(300,260)。背景に簡略なキャラ顔の線画や人の顔を描かない。左下に文字なしのコマ枠だけを描いたモニター。レンの手は画面外。右半分は白余白。",
+                "before": "直前の説明や作業を受ける",
+                "after": "次の工程へ進む",
+                "hands": {
+                  "b": {
+                    "left": "空手、画面外または机で隠れる",
+                    "right": "空手、画面外または机で隠れる"
+                  }
+                },
+                "props": []
+              },
+              "speakers": {
+                "b": {
+                  "anchor": [
+                    300,
+                    284
+                  ],
+                  "face": [
+                    230,
+                    154,
+                    140,
+                    175
+                  ]
+                }
+              },
+              "dialogue": [
+                {
+                  "speaker": "b",
+                  "text": "基準画像から作画。文字は後で組む。",
+                  "side": "right",
+                  "x": 700,
+                  "dy": 18,
+                  "capacity": 7
+                }
+              ]
+            },
+            {
+              "id": "02-2",
+              "order": 2,
+              "rect": [
+                24,
+                478,
+                976,
+                430
+              ],
+              "section": "night",
+              "role": "始動",
+              "beat": "顔や手、読順も実物を見て直す！",
+              "scene": "画面を真剣に見て点検するユイ。顔中心(300,700)、左寄り。手は画面外。右側は白余白。机と窓の一部、窓は夜空。",
+              "action": "画面を真剣に見て点検するユイ。顔中心(300,700)、左寄り。手は画面外。右側は白余白。机と窓の一部、窓は夜空。",
+              "emotion": "好奇心と集中",
+              "camera": "バストアップ",
+              "state": {
+                "time": "夜"
+              },
+              "production": {
+                "moment": "画面を真剣に見て点検するユイ。顔中心(300,700)、左寄り。手は画面外。右側は白余白。机と窓の一部、窓は夜空。",
+                "before": "直前の説明や作業を受ける",
+                "after": "次の工程へ進む",
+                "hands": {
+                  "a": {
+                    "left": "空手、画面外または机で隠れる",
+                    "right": "空手、画面外または机で隠れる"
+                  }
+                },
+                "props": []
+              },
+              "speakers": {
+                "a": {
+                  "anchor": [
+                    300,
+                    738
+                  ],
+                  "face": [
+                    230,
+                    608,
+                    140,
+                    175
+                  ]
+                }
+              },
+              "dialogue": [
+                {
+                  "speaker": "a",
+                  "text": "顔や手、読順も実物を見て直す！",
+                  "side": "right",
+                  "x": 700,
+                  "dy": 18,
+                  "capacity": 7
+                },
+                {
+                  "speaker": "narration",
+                  "text": "別担当の独立レビューで、気づいた不備を修正。",
+                  "side": "left",
+                  "x": 500,
+                  "dy": 300,
+                  "capacity": 7,
+                  "textDirection": "horizontal",
+                  "textColumns": [
+                    "別担当の独立レビューで、",
+                    "気づいた不備を修正。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "02-3",
+              "order": 3,
+              "rect": [
+                24,
+                932,
+                976,
+                532
+              ],
+              "section": "night",
+              "role": "余韻",
+              "beat": "私の物語が、漫画になった！",
+              "scene": "夜の同じ机。嬉しそうなユイは右端、顔中心(850,1275)。微笑むレンは左端、顔中心(150,1275)。二人は小さめに描く。上部250pxと中央、下部120pxは文字用の白余白。完成ページのコマ枠だけ表示したPCは中央の机に小さく。手は画面外。 新しい開いたノートを机の中央に小さく見せる。",
+              "action": "夜の同じ机。嬉しそうなユイは右端、顔中心(850,1275)。微笑むレンは左端、顔中心(150,1275)。二人は小さめに描く。上部250pxと中央、下部120pxは文字用の白余白。完成ページのコマ枠だけ表示したPCは中央の机に小さく。手は画面外。 新しい開いたノートを机の中央に小さく見せる。",
+              "emotion": "達成感",
+              "camera": "机越しの二人のミディアムショット",
+              "state": {
+                "time": "夜"
+              },
+              "production": {
+                "moment": "夜の同じ机。嬉しそうなユイは右端、顔中心(850,1275)。微笑むレンは左端、顔中心(150,1275)。二人は小さめに描く。上部250pxと中央、下部120pxは文字用の白余白。完成ページのコマ枠だけ表示したPCは中央の机に小さく。手は画面外。 新しい開いたノートを机の中央に小さく見せる。",
+                "before": "直前の説明や作業を受ける",
+                "after": "次の物語をノートに書き始める",
+                "hands": {
+                  "a": {
+                    "left": "空手、画面外または机で隠れる",
+                    "right": "空手、画面外または机で隠れる"
+                  },
+                  "b": {
+                    "left": "空手、画面外または机で隠れる",
+                    "right": "空手、画面外または机で隠れる"
+                  }
+                },
+                "props": []
+              },
+              "speakers": {
+                "a": {
+                  "anchor": [
+                    850,
+                    1310
+                  ],
+                  "face": [
+                    785,
+                    1195,
+                    130,
+                    160
+                  ]
+                },
+                "b": {
+                  "anchor": [
+                    150,
+                    1310
+                  ],
+                  "face": [
+                    85,
+                    1195,
+                    130,
+                    160
+                  ]
+                }
+              },
+              "dialogue": [
+                {
+                  "speaker": "a",
+                  "text": "私の物語が、漫画になった！",
+                  "side": "right",
+                  "x": 700,
+                  "dy": 18,
+                  "capacity": 7
+                },
+                {
+                  "speaker": "b",
+                  "text": "読書画面・PNG・PDFと、再現パッケージまで。",
+                  "side": "left",
+                  "x": 30,
+                  "dy": 18,
+                  "capacity": 7,
+                  "textDirection": "horizontal",
+                  "textColumns": [
+                    "読書画面・PNG・PDFと、",
+                    "再現パッケージまで。"
+                  ]
+                },
+                {
+                  "speaker": "narration",
+                  "text": "次の物語も、描き出そう。",
+                  "side": "left",
+                  "x": 340,
+                  "dy": 320,
+                  "capacity": 7,
+                  "textDirection": "horizontal",
+                  "textColumns": [
+                    "次の物語も、描き出そう。"
+                  ]
+                },
+                {
+                  "speaker": "narration",
+                  "text": "採用素材から組版を再現。新規生成で同じ絵が出る保証ではありません。",
+                  "side": "right",
+                  "x": 140,
+                  "dy": 425,
+                  "capacity": 7,
+                  "textDirection": "horizontal",
+                  "textColumns": [
+                    "採用素材から組版を再現。",
+                    "新規生成で同じ絵が出る保証ではありません。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "boundaryContext": [
+      {
+        "id": "01",
+        "section": "desk",
+        "purpose": "原作から漫画へ踏み出し、設計の大切さを知る",
+        "expectation": "設計した漫画をどう描き仕上げるか",
+        "panels": [
+          {
+            "id": "01-1",
+            "order": 1,
+            "rect": [
+              24,
+              24,
+              976,
+              400
+            ],
+            "section": "desk",
+            "role": "提示",
+            "beat": "物語は書けた。でも、漫画にするには？",
+            "scene": "机で原稿を前に悩むユイのバストアップ。ユイは左寄り、顔の中心はページ座標(300,250)。両手は机に自然に置く。右半分を白く空ける。窓に夕空。",
+            "action": "机で原稿を前に悩むユイのバストアップ。ユイは左寄り、顔の中心はページ座標(300,250)。両手は机に自然に置く。右半分を白く空ける。窓に夕空。",
+            "emotion": "不安",
+            "camera": "バストアップ",
+            "state": {
+              "time": "夕方"
+            },
+            "production": {
+              "moment": "机で原稿を前に悩むユイのバストアップ。ユイは左寄り、顔の中心はページ座標(300,250)。両手は机に自然に置く。右半分を白く空ける。窓に夕空。",
+              "before": "物語を書き終えた",
+              "after": "次の工程へ進む",
+              "hands": {
+                "a": {
+                  "left": "空手、机の上",
+                  "right": "空手、机の上"
+                }
+              },
+              "props": []
+            },
+            "speakers": {
+              "a": {
+                "anchor": [
+                  300,
+                  284
+                ],
+                "face": [
+                  230,
+                  154,
+                  140,
+                  175
+                ]
+              }
+            },
+            "dialogue": [
+              {
+                "speaker": "a",
+                "text": "物語は書けた。でも、漫画にするには？",
+                "side": "right",
+                "x": 700,
+                "dy": 18,
+                "capacity": 7
+              }
+            ]
+          },
+          {
+            "id": "01-2",
+            "order": 2,
+            "rect": [
+              24,
+              448,
+              976,
+              430
+            ],
+            "section": "desk",
+            "role": "始動",
+            "beat": "Codexでmanga-generatorを使おう。原作から一緒に組み立てるよ。",
+            "scene": "レンのバストアップ、左寄り。顔中心はページ座標(300,750)。両手は画面外。上部150pxは文字用の白余白。背景は白。",
+            "action": "レンのバストアップ、左寄り。顔中心はページ座標(300,750)。両手は画面外。上部150pxは文字用の白余白。背景は白。",
+            "emotion": "好奇心と集中",
+            "camera": "バストアップ",
+            "state": {
+              "time": "夕方"
+            },
+            "production": {
+              "moment": "レンのバストアップ、左寄り。顔中心はページ座標(300,750)。両手は画面外。上部150pxは文字用の白余白。背景は白。",
+              "before": "直前の説明や作業を受ける",
+              "after": "次の工程へ進む",
+              "hands": {
+                "b": {
+                  "left": "空手、画面外または机で隠れる",
+                  "right": "空手、画面外または机で隠れる"
+                }
+              },
+              "props": []
+            },
+            "speakers": {
+              "b": {
+                "anchor": [
+                  300,
+                  790
+                ],
+                "face": [
+                  230,
+                  660,
+                  140,
+                  175
+                ]
+              }
+            },
+            "dialogue": [
+              {
+                "speaker": "b",
+                "text": "Codexでmanga-generatorを使おう。原作から一緒に組み立てるよ。",
+                "side": "right",
+                "x": 180,
+                "dy": 18,
+                "capacity": 7,
+                "textDirection": "horizontal",
+                "textColumns": [
+                  "Codexでmanga-generatorを使おう。",
+                  "原作から一緒に組み立てるよ。"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "01-3",
+            "order": 3,
+            "rect": [
+              24,
+              902,
+              976,
+              562
+            ],
+            "section": "desk",
+            "role": "始動",
+            "beat": "まず全文を読み、台詞と見せ場を設計する。",
+            "scene": "机で原稿を読んで脚本とコマ割りを考える二人。レンは画面右寄り、顔中心(700,1280)、ユイは画面左寄り、顔中心(280,1300)。上部240pxは台詞用の白余白。下部に文字なしの原稿とコマ割り。二人の手は下端の机の向こうで隠れる。",
+            "action": "机で原稿を読んで脚本とコマ割りを考える二人。レンは画面右寄り、顔中心(700,1280)、ユイは画面左寄り、顔中心(280,1300)。上部240pxは台詞用の白余白。下部に文字なしの原稿とコマ割り。二人の手は下端の机の向こうで隠れる。",
+            "emotion": "好奇心と集中",
+            "camera": "机越しの二人のミディアムショット",
+            "state": {
+              "time": "夕方"
+            },
+            "production": {
+              "moment": "机で原稿を読んで脚本とコマ割りを考える二人。レンは画面右寄り、顔中心(700,1280)、ユイは画面左寄り、顔中心(280,1300)。上部240pxは台詞用の白余白。下部に文字なしの原稿とコマ割り。二人の手は下端の机の向こうで隠れる。",
+              "before": "直前の説明や作業を受ける",
+              "after": "次の工程へ進む",
+              "hands": {
+                "b": {
+                  "left": "空手、画面外または机で隠れる",
+                  "right": "空手、画面外または机で隠れる"
+                },
+                "a": {
+                  "left": "空手、画面外または机で隠れる",
+                  "right": "空手、画面外または机で隠れる"
+                }
+              },
+              "props": []
+            },
+            "speakers": {
+              "b": {
+                "anchor": [
+                  700,
+                  1320
+                ],
+                "face": [
+                  630,
+                  1190,
+                  140,
+                  175
+                ]
+              },
+              "a": {
+                "anchor": [
+                  280,
+                  1340
+                ],
+                "face": [
+                  210,
+                  1210,
+                  140,
+                  175
+                ]
+              }
+            },
+            "dialogue": [
+              {
+                "speaker": "b",
+                "text": "まず全文を読み、台詞と見せ場を設計する。",
+                "side": "right",
+                "x": 700,
+                "dy": 18,
+                "capacity": 7
+              },
+              {
+                "speaker": "a",
+                "text": "大事な気持ちを残すんだね。",
+                "side": "left",
+                "x": 50,
+                "dy": 18,
+                "capacity": 7
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "readingProtocol": "two-phase-v1",
+    "firstReading": {
+      "fingerprint": "ed02a7c19fad41c4c197a93e005e7ddacaad0ec32e83f92ed135d076b4b44229",
+      "reviewer": {
+        "role": "subagent",
+        "task": "/root/independent_review"
+      },
+      "pages": [
+        {
+          "page": "02",
+          "scan": "上段右の基準画像・作画・後から文字を組む発話から左のb予定顔へ。中段は右の顔・手・読順を実物で直す発話、左のa予定顔、右下の独立レビューのキャプションへ進む。下段右の『私の物語が、漫画になった！』から左上の『読書画面・PNG・PDFと、再現パッケージまで。』へ進み、中央の次作のキャプションと最下部の再現範囲の注意文を読んだ。",
+          "observation": "既に脚本を知っているため盲検ではない。今回は指定の番号なし画像のみを見た。PNG/PDFは横書きになり単語が分断せず読める。右から左の下段会話は同じ上端にあり、その後の中央キャプションは十分下がっていて会話に割り込まない。最下部の注意文自体は全て読めるが枠の下辺がコマ下端へ接しており、完成時の余白点検は残る。灰色顔ガイドのみなので実際の表情、夜の窓、ノートなどはまだ実見していない。"
+        }
+      ]
+    },
+    "firstReadingHash": "6aa430cf39b989120ebf25b356b4cb5c1e04994001f960b08cf9396b52a9ecc0"
+  },
+  "files": [
+    "works/auto-c4339911528c/source/original.txt",
+    "works/auto-c4339911528c/workflow/storyboards/page-01.svg",
+    "works/auto-c4339911528c/workflow/storyboards-unnumbered/page-01.svg",
+    "works/auto-c4339911528c/assets/characters.png",
+    "works/auto-c4339911528c/workflow/storyboards/page-02.svg",
+    "works/auto-c4339911528c/workflow/storyboards-unnumbered/page-02.svg",
+    "works/auto-c4339911528c/workflow/reading-flow/page-02.svg",
+    "works/auto-c4339911528c/workflow/reading-flow/page-02.json",
+    "works/auto-c4339911528c/workflow/stage-reviews/first-reading/storyboard-02-ed02a7c19fad41c4c197a93e005e7ddacaad0ec32e83f92ed135d076b4b44229.json",
+    "works/auto-c4339911528c/workflow/storyboards-unnumbered/page-02.png"
+  ],
+  "optionalFiles": [],
+  "configFile": "works/auto-c4339911528c/workflow.json",
+  "entries": {
+    "works/auto-c4339911528c/source/original.txt": "c4339911528cba83d1a4e865fe3c0670a29dc9950d867179f912f453f84cdee8",
+    "works/auto-c4339911528c/workflow/storyboards/page-01.svg": "b6debf5cfaba5e7fbdfe36b07f62ec5e4fd336b63e702f638446422cab5b7654",
+    "works/auto-c4339911528c/workflow/storyboards-unnumbered/page-01.svg": "c7b8440670962267b873be6fd13f290d68cef6aed51e29f2cb52bc34ca83946c",
+    "works/auto-c4339911528c/assets/characters.png": "7887183d6e7eb972a634c279ad59bbf73296cacfd7756ca6fcc79a0ebfa9dbf7",
+    "works/auto-c4339911528c/workflow/storyboards/page-02.svg": "f0aaf94ec7119459c3af717f9e5ac6f9a915bf4e2644e10530e9e9382ba2d5bc",
+    "works/auto-c4339911528c/workflow/storyboards-unnumbered/page-02.svg": "6ad31e8519394b2fb57378b8d257184b475054ac703c3a73b5108aa1c5f83bda",
+    "works/auto-c4339911528c/workflow/reading-flow/page-02.svg": "187c72a2d7d28f107cf95aa665d7f68e9c14754823bc14f57921cd8a69c25a3b",
+    "works/auto-c4339911528c/workflow/reading-flow/page-02.json": "9aee6b61515bd95913554fd66e6ed1ff5706e68254f04307b8faa09b5ed90f9f",
+    "works/auto-c4339911528c/workflow/stage-reviews/first-reading/storyboard-02-ed02a7c19fad41c4c197a93e005e7ddacaad0ec32e83f92ed135d076b4b44229.json": "6aa430cf39b989120ebf25b356b4cb5c1e04994001f960b08cf9396b52a9ecc0",
+    "works/auto-c4339911528c/workflow/storyboards-unnumbered/page-02.png": "30309b43991e0138d5395c5869972d0fffb1041c297ba413c21241e20ff6da40"
+  },
+  "fingerprint": "37cfcf536c8c9cdd56c6ad54812bfca5c2162afc94eee18238d2cd24be34689e"
+}

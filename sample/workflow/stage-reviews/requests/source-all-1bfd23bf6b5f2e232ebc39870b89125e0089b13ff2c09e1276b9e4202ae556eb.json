@@ -1,0 +1,16 @@
+{
+  "base": {
+    "stage": "source",
+    "target": "all",
+    "sourceFile": "works/auto-c4339911528c/source/original.txt"
+  },
+  "files": [
+    "works/auto-c4339911528c/source/original.txt"
+  ],
+  "optionalFiles": [],
+  "configFile": "works/auto-c4339911528c/workflow.json",
+  "entries": {
+    "works/auto-c4339911528c/source/original.txt": "c4339911528cba83d1a4e865fe3c0670a29dc9950d867179f912f453f84cdee8"
+  },
+  "fingerprint": "1bfd23bf6b5f2e232ebc39870b89125e0089b13ff2c09e1276b9e4202ae556eb"
+}

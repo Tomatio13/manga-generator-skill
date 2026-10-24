@@ -1,0 +1,474 @@
+{
+  "version": 2,
+  "status": "planned-not-visually-reviewed",
+  "guidance": {
+    "version": 1,
+    "direction": "right-to-left, top-to-bottom",
+    "rules": [
+      "one beat per panel",
+      "speech groups and faces are planned together",
+      "scene and time boundaries receive a visual or caption anchor",
+      "page-end question and next-page answer are reviewed, not forced"
+    ]
+  },
+  "pages": [
+    {
+      "page": "01",
+      "feeling": "原作から漫画へ踏み出し、設計の大切さを知る",
+      "questionForNextPage": "設計した漫画をどう描き仕上げるか",
+      "intent": {
+        "emotion": "原作から漫画へ踏み出し、設計の大切さを知る",
+        "revealOrder": null,
+        "peakPanel": null,
+        "turnQuestion": "設計した漫画をどう描き仕上げるか",
+        "turnAnswer": null
+      },
+      "showcase": null,
+      "diagnostics": {
+        "showcaseExists": true,
+        "areaRange": [
+          390400,
+          548512
+        ],
+        "strengthsEqual": false
+      },
+      "panels": [
+        {
+          "id": "01-1",
+          "beat": "物語は書けた。でも、漫画にするには？",
+          "camera": "バストアップ",
+          "area": 390400,
+          "strength": 0.71,
+          "showcase": false,
+          "information": null,
+          "pause": null,
+          "readingGroups": null,
+          "layoutRow": null
+        },
+        {
+          "id": "01-2",
+          "beat": "Codexでmanga-generatorを使おう。原作から一緒に組み立てるよ。",
+          "camera": "バストアップ",
+          "area": 419680,
+          "strength": 0.77,
+          "showcase": false,
+          "information": null,
+          "pause": null,
+          "readingGroups": null,
+          "layoutRow": null
+        },
+        {
+          "id": "01-3",
+          "beat": "まず全文を読み、台詞と見せ場を設計する。",
+          "camera": "机越しの二人のミディアムショット",
+          "area": 548512,
+          "strength": 1,
+          "showcase": false,
+          "information": null,
+          "pause": null,
+          "readingGroups": null,
+          "layoutRow": null
+        }
+      ]
+    },
+    {
+      "page": "02",
+      "feeling": "作画と独立検品を経た完成と、次の創作への意欲",
+      "questionForNextPage": "ユイが次の物語へ進む余韻",
+      "intent": {
+        "emotion": "作画と独立検品を経た完成と、次の創作への意欲",
+        "revealOrder": null,
+        "peakPanel": null,
+        "turnQuestion": "ユイが次の物語へ進む余韻",
+        "turnAnswer": null
+      },
+      "showcase": null,
+      "diagnostics": {
+        "showcaseExists": true,
+        "areaRange": [
+          419680,
+          519232
+        ],
+        "strengthsEqual": false
+      },
+      "panels": [
+        {
+          "id": "02-1",
+          "beat": "基準画像から作画。文字は後で組む。",
+          "camera": "バストアップ",
+          "area": 419680,
+          "strength": 0.81,
+          "showcase": false,
+          "information": null,
+          "pause": null,
+          "readingGroups": null,
+          "layoutRow": null
+        },
+        {
+          "id": "02-2",
+          "beat": "顔や手、読順も実物を見て直す！",
+          "camera": "バストアップ",
+          "area": 419680,
+          "strength": 0.81,
+          "showcase": false,
+          "information": null,
+          "pause": null,
+          "readingGroups": null,
+          "layoutRow": null
+        },
+        {
+          "id": "02-3",
+          "beat": "私の物語が、漫画になった！",
+          "camera": "机越しの二人のミディアムショット",
+          "area": 519232,
+          "strength": 1,
+          "showcase": false,
+          "information": null,
+          "pause": null,
+          "readingGroups": null,
+          "layoutRow": null
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": "01-1",
+      "to": "01-2",
+      "pageBoundary": false,
+      "layoutBoundary": false,
+      "kind": "continuation",
+      "before": {
+        "section": "desk",
+        "setting": {
+          "summary": "夕方、原作を漫画へ組み立てる",
+          "location": "作者の作業机。窓、ノートPC、原稿紙。夕方の空。",
+          "costumes": {
+            "a": "淡色クルーネックスウェット",
+            "b": "黒いハイネックと白い開襟シャツ"
+          },
+          "objects": {
+            "notebook": "机上の開いたノート",
+            "laptop": "机上のノートPC"
+          },
+          "time": "夕方"
+        },
+        "scene": "夕方の机で原稿を前に悩むユイ。右手で頬杖をつき、右肘と左手を机に置く。左寄りのバストアップ。右半分は台詞の白余白。窓の夕空。",
+        "action": "夕方の机で原稿を前に悩むユイ。右手で頬杖をつき、右肘と左手を机に置く。左寄りのバストアップ。右半分は台詞の白余白。窓の夕空。"
+      },
+      "after": {
+        "section": "desk",
+        "setting": {
+          "summary": "夕方、原作を漫画へ組み立てる",
+          "location": "作者の作業机。窓、ノートPC、原稿紙。夕方の空。",
+          "costumes": {
+            "a": "淡色クルーネックスウェット",
+            "b": "黒いハイネックと白い開襟シャツ"
+          },
+          "objects": {
+            "notebook": "机上の開いたノート",
+            "laptop": "机上のノートPC"
+          },
+          "time": "夕方"
+        },
+        "scene": "夕方の同じ机。左寄りのレンが穏やかに漫画化を提案するバストアップ。両手は画面外。右上を文字領域とする。",
+        "action": "夕方の同じ机。左寄りのレンが穏やかに漫画化を提案するバストアップ。両手は画面外。右上を文字領域とする。"
+      },
+      "ledger": {
+        "timeBefore": "夕方",
+        "timeAfter": "夕方",
+        "locationBefore": "作者の作業机。窓、ノートPC、原稿紙。夕方の空。",
+        "locationAfter": "作者の作業机。窓、ノートPC、原稿紙。夕方の空。",
+        "readerMustKnow": null,
+        "anchor": null,
+        "anchorEvidencePanel": "01-2",
+        "axisBefore": null,
+        "axisAfter": null,
+        "resetCue": null,
+        "retainedObjects": [
+          "notebook",
+          "laptop"
+        ],
+        "changedObjects": [],
+        "actionBefore": "夕方の机で原稿を前に悩むユイ。右手で頬杖をつき、右肘と左手を机に置く。左寄りのバストアップ。右半分は台詞の白余白。窓の夕空。",
+        "actionAfter": "夕方の同じ机。左寄りのレンが穏やかに漫画化を提案するバストアップ。両手は画面外。右上を文字領域とする。",
+        "sourceBasis": null,
+        "supplementBasis": null
+      },
+      "bridge": null,
+      "settingBasis": null,
+      "warnings": []
+    },
+    {
+      "from": "01-2",
+      "to": "01-3",
+      "pageBoundary": false,
+      "layoutBoundary": false,
+      "kind": "continuation",
+      "before": {
+        "section": "desk",
+        "setting": {
+          "summary": "夕方、原作を漫画へ組み立てる",
+          "location": "作者の作業机。窓、ノートPC、原稿紙。夕方の空。",
+          "costumes": {
+            "a": "淡色クルーネックスウェット",
+            "b": "黒いハイネックと白い開襟シャツ"
+          },
+          "objects": {
+            "notebook": "机上の開いたノート",
+            "laptop": "机上のノートPC"
+          },
+          "time": "夕方"
+        },
+        "scene": "夕方の同じ机。左寄りのレンが穏やかに漫画化を提案するバストアップ。両手は画面外。右上を文字領域とする。",
+        "action": "夕方の同じ机。左寄りのレンが穏やかに漫画化を提案するバストアップ。両手は画面外。右上を文字領域とする。"
+      },
+      "after": {
+        "section": "desk",
+        "setting": {
+          "summary": "夕方、原作を漫画へ組み立てる",
+          "location": "作者の作業机。窓、ノートPC、原稿紙。夕方の空。",
+          "costumes": {
+            "a": "淡色クルーネックスウェット",
+            "b": "黒いハイネックと白い開襟シャツ"
+          },
+          "objects": {
+            "notebook": "机上の開いたノート",
+            "laptop": "机上のノートPC"
+          },
+          "time": "夕方"
+        },
+        "scene": "夕方の机で原稿を読んで脚本とコマ割りを考える二人。レンが右、ユイが左で原稿を見て気持ちを残すと応える。手は紙と机の向こうに隠れる。上部を文字領域とする。",
+        "action": "夕方の机で原稿を読んで脚本とコマ割りを考える二人。レンが右、ユイが左で原稿を見て気持ちを残すと応える。手は紙と机の向こうに隠れる。上部を文字領域とする。"
+      },
+      "ledger": {
+        "timeBefore": "夕方",
+        "timeAfter": "夕方",
+        "locationBefore": "作者の作業机。窓、ノートPC、原稿紙。夕方の空。",
+        "locationAfter": "作者の作業机。窓、ノートPC、原稿紙。夕方の空。",
+        "readerMustKnow": null,
+        "anchor": null,
+        "anchorEvidencePanel": "01-3",
+        "axisBefore": null,
+        "axisAfter": null,
+        "resetCue": null,
+        "retainedObjects": [
+          "notebook",
+          "laptop"
+        ],
+        "changedObjects": [],
+        "actionBefore": "夕方の同じ机。左寄りのレンが穏やかに漫画化を提案するバストアップ。両手は画面外。右上を文字領域とする。",
+        "actionAfter": "夕方の机で原稿を読んで脚本とコマ割りを考える二人。レンが右、ユイが左で原稿を見て気持ちを残すと応える。手は紙と机の向こうに隠れる。上部を文字領域とする。",
+        "sourceBasis": null,
+        "supplementBasis": null
+      },
+      "bridge": null,
+      "settingBasis": null,
+      "warnings": []
+    },
+    {
+      "from": "01-3",
+      "to": "02-1",
+      "pageBoundary": true,
+      "layoutBoundary": true,
+      "kind": "scene-change",
+      "before": {
+        "section": "desk",
+        "setting": {
+          "summary": "夕方、原作を漫画へ組み立てる",
+          "location": "作者の作業机。窓、ノートPC、原稿紙。夕方の空。",
+          "costumes": {
+            "a": "淡色クルーネックスウェット",
+            "b": "黒いハイネックと白い開襟シャツ"
+          },
+          "objects": {
+            "notebook": "机上の開いたノート",
+            "laptop": "机上のノートPC"
+          },
+          "time": "夕方"
+        },
+        "scene": "夕方の机で原稿を読んで脚本とコマ割りを考える二人。レンが右、ユイが左で原稿を見て気持ちを残すと応える。手は紙と机の向こうに隠れる。上部を文字領域とする。",
+        "action": "夕方の机で原稿を読んで脚本とコマ割りを考える二人。レンが右、ユイが左で原稿を見て気持ちを残すと応える。手は紙と机の向こうに隠れる。上部を文字領域とする。"
+      },
+      "after": {
+        "section": "night",
+        "setting": {
+          "summary": "作画・検品を経て完成",
+          "location": "同じ机と窓。夜空とデスクライトが時間の経過を示す。",
+          "costumes": {
+            "a": "同じ淡色スウェット",
+            "b": "同じ黒ハイネックと白シャツ"
+          },
+          "objects": {
+            "notebook": "開いたノート",
+            "laptop": "完成ページを表示するノートPC"
+          },
+          "time": "夜"
+        },
+        "scene": "夜の同じ机。左寄りのレンが文字なしコマ枠を表示したモニターを見る。手は画面外。右半分は白余白。窓の夜空とライトが時間経過を示す。",
+        "action": "夜の同じ机。左寄りのレンが文字なしコマ枠を表示したモニターを見る。手は画面外。右半分は白余白。窓の夜空とライトが時間経過を示す。"
+      },
+      "ledger": {
+        "timeBefore": "夕方",
+        "timeAfter": "夜",
+        "locationBefore": "作者の作業机。窓、ノートPC、原稿紙。夕方の空。",
+        "locationAfter": "同じ机と窓。夜空とデスクライトが時間の経過を示す。",
+        "readerMustKnow": null,
+        "anchor": null,
+        "anchorEvidencePanel": "02-1",
+        "axisBefore": null,
+        "axisAfter": null,
+        "resetCue": null,
+        "retainedObjects": [],
+        "changedObjects": [
+          "notebook",
+          "laptop"
+        ],
+        "actionBefore": "夕方の机で原稿を読んで脚本とコマ割りを考える二人。レンが右、ユイが左で原稿を見て気持ちを残すと応える。手は紙と机の向こうに隠れる。上部を文字領域とする。",
+        "actionAfter": "夜の同じ机。左寄りのレンが文字なしコマ枠を表示したモニターを見る。手は画面外。右半分は白余白。窓の夜空とライトが時間経過を示す。",
+        "sourceBasis": null,
+        "supplementBasis": null
+      },
+      "bridge": null,
+      "settingBasis": null,
+      "warnings": [
+        "場面設定が変わる。読者が時間・場所・回想への出入りを識別できる導入を記録し、実画像で確認する。"
+      ]
+    },
+    {
+      "from": "02-1",
+      "to": "02-2",
+      "pageBoundary": false,
+      "layoutBoundary": false,
+      "kind": "continuation",
+      "before": {
+        "section": "night",
+        "setting": {
+          "summary": "作画・検品を経て完成",
+          "location": "同じ机と窓。夜空とデスクライトが時間の経過を示す。",
+          "costumes": {
+            "a": "同じ淡色スウェット",
+            "b": "同じ黒ハイネックと白シャツ"
+          },
+          "objects": {
+            "notebook": "開いたノート",
+            "laptop": "完成ページを表示するノートPC"
+          },
+          "time": "夜"
+        },
+        "scene": "夜の同じ机。左寄りのレンが文字なしコマ枠を表示したモニターを見る。手は画面外。右半分は白余白。窓の夜空とライトが時間経過を示す。",
+        "action": "夜の同じ机。左寄りのレンが文字なしコマ枠を表示したモニターを見る。手は画面外。右半分は白余白。窓の夜空とライトが時間経過を示す。"
+      },
+      "after": {
+        "section": "night",
+        "setting": {
+          "summary": "作画・検品を経て完成",
+          "location": "同じ机と窓。夜空とデスクライトが時間の経過を示す。",
+          "costumes": {
+            "a": "同じ淡色スウェット",
+            "b": "同じ黒ハイネックと白シャツ"
+          },
+          "objects": {
+            "notebook": "開いたノート",
+            "laptop": "完成ページを表示するノートPC"
+          },
+          "time": "夜"
+        },
+        "scene": "夜の同じ机。左寄りのユイがノートPCの画面を見ながら点検について話す。手はPCに隠れる。右半分は文字領域。",
+        "action": "夜の同じ机。左寄りのユイがノートPCの画面を見ながら点検について話す。手はPCに隠れる。右半分は文字領域。"
+      },
+      "ledger": {
+        "timeBefore": "夜",
+        "timeAfter": "夜",
+        "locationBefore": "同じ机と窓。夜空とデスクライトが時間の経過を示す。",
+        "locationAfter": "同じ机と窓。夜空とデスクライトが時間の経過を示す。",
+        "readerMustKnow": null,
+        "anchor": null,
+        "anchorEvidencePanel": "02-2",
+        "axisBefore": null,
+        "axisAfter": null,
+        "resetCue": null,
+        "retainedObjects": [
+          "notebook",
+          "laptop"
+        ],
+        "changedObjects": [],
+        "actionBefore": "夜の同じ机。左寄りのレンが文字なしコマ枠を表示したモニターを見る。手は画面外。右半分は白余白。窓の夜空とライトが時間経過を示す。",
+        "actionAfter": "夜の同じ机。左寄りのユイがノートPCの画面を見ながら点検について話す。手はPCに隠れる。右半分は文字領域。",
+        "sourceBasis": null,
+        "supplementBasis": null
+      },
+      "bridge": null,
+      "settingBasis": null,
+      "warnings": []
+    },
+    {
+      "from": "02-2",
+      "to": "02-3",
+      "pageBoundary": false,
+      "layoutBoundary": false,
+      "kind": "continuation",
+      "before": {
+        "section": "night",
+        "setting": {
+          "summary": "作画・検品を経て完成",
+          "location": "同じ机と窓。夜空とデスクライトが時間の経過を示す。",
+          "costumes": {
+            "a": "同じ淡色スウェット",
+            "b": "同じ黒ハイネックと白シャツ"
+          },
+          "objects": {
+            "notebook": "開いたノート",
+            "laptop": "完成ページを表示するノートPC"
+          },
+          "time": "夜"
+        },
+        "scene": "夜の同じ机。左寄りのユイがノートPCの画面を見ながら点検について話す。手はPCに隠れる。右半分は文字領域。",
+        "action": "夜の同じ机。左寄りのユイがノートPCの画面を見ながら点検について話す。手はPCに隠れる。右半分は文字領域。"
+      },
+      "after": {
+        "section": "night",
+        "setting": {
+          "summary": "作画・検品を経て完成",
+          "location": "同じ机と窓。夜空とデスクライトが時間の経過を示す。",
+          "costumes": {
+            "a": "同じ淡色スウェット",
+            "b": "同じ黒ハイネックと白シャツ"
+          },
+          "objects": {
+            "notebook": "開いたノート",
+            "laptop": "完成ページを表示するノートPC"
+          },
+          "time": "夜"
+        },
+        "scene": "夜の同じ机。ユイは右、レンは左。完成した漫画を表示したPCが机の中央、手前に新しい開いたノート。ユイが喜び、レンが微笑む。二人の手は机の向こう。",
+        "action": "夜の同じ机。ユイは右、レンは左。完成した漫画を表示したPCが机の中央、手前に新しい開いたノート。ユイが喜び、レンが微笑む。二人の手は机の向こう。"
+      },
+      "ledger": {
+        "timeBefore": "夜",
+        "timeAfter": "夜",
+        "locationBefore": "同じ机と窓。夜空とデスクライトが時間の経過を示す。",
+        "locationAfter": "同じ机と窓。夜空とデスクライトが時間の経過を示す。",
+        "readerMustKnow": null,
+        "anchor": null,
+        "anchorEvidencePanel": "02-3",
+        "axisBefore": null,
+        "axisAfter": null,
+        "resetCue": null,
+        "retainedObjects": [
+          "notebook",
+          "laptop"
+        ],
+        "changedObjects": [],
+        "actionBefore": "夜の同じ机。左寄りのユイがノートPCの画面を見ながら点検について話す。手はPCに隠れる。右半分は文字領域。",
+        "actionAfter": "夜の同じ机。ユイは右、レンは左。完成した漫画を表示したPCが机の中央、手前に新しい開いたノート。ユイが喜び、レンが微笑む。二人の手は机の向こう。",
+        "sourceBasis": null,
+        "supplementBasis": null
+      },
+      "bridge": null,
+      "settingBasis": null,
+      "warnings": []
+    }
+  ],
+  "note": "研究メモを実装へ翻訳した計画台帳。強度・段境界・場面接続はレビュー候補であり、実際の読者の視線や面白さを機械的に保証しない。"
+}

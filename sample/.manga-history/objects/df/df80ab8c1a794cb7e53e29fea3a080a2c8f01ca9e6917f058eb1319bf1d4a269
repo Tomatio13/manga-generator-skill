@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "completedAt": "2026-10-24T14:32:47.972Z",
+  "deliverables": {
+    "works/auto-c4339911528c/output/reader.html": "e589f6a214269e55324e0dc3fa5b36589c38668be9fa9eb49c233fd31ddefbbd",
+    "works/auto-c4339911528c/output/pdf/manga.pdf": "19ee58c1456774fc022d3623fddd1e70c293be2f50a196763f685781b1ac27e5",
+    "releases/auto-c4339911528c-v8-cb53fe0c.tar.gz": "400279e74ecd979ae801c08b6e2c3d74e8b1d3433bf5a028e650315e26fb0fae",
+    "works/auto-c4339911528c/workflow.lock.json": "cb53fe0c90bd2e9555b7972247c17a1d17eee85252b89543983523fcb5eb85c6"
+  },
+  "note": "AI generation is non-deterministic; frozen artwork composition is reproducible. Visual inspection records are stored with the work; they are not evidence of human inspection."
+}
